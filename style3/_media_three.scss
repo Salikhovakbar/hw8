@@ -1,0 +1,226 @@
+@media only screen and (max-width:400px){
+    header{
+        padding: 0px 50px 0px 15px ;
+    }
+    #cross_bar{
+        display: block;
+    }
+    .header_nav{
+        display: none;
+    }
+    .over_hero{
+        display: block;
+    }
+    .hero_part{
+        background-image: url(../images3/phone__photo.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 400px;
+    }
+    .hero_text{
+        padding: 0;
+    padding-top: 100px;
+    }
+    h1{
+        font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+text-align: center;
+color: #FEFCF7;
+    }
+.text_description{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.main_box{
+    width: 375px;
+    height: 1028px;
+    padding: 0;
+}
+.line{
+display: none;
+}
+.statics{
+    display: block;
+}
+.number{
+    font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+text-align: center;
+color: #FDD6BA;
+}
+.offer{
+    text-align: center;
+}
+.conditions{
+    text-align: center;
+}
+.under_main_part{
+    display: block;
+}
+.first_part{
+    display: block;
+}
+.options_part{
+    display: none;
+}
+@mixin boxesstyle ($main-color) {
+    width: 328px;
+    height: 140px; 
+    background-color: $main-color;   
+    border-radius: 8px;
+}
+.first_box{
+    @include boxesstyle (#F4F1EB);
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.second_box{
+    @include boxesstyle(#0E8784);
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.third_box{
+    @include boxesstyle(#FDD6BA);
+    margin-top: 16px;
+}
+.fourth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.fivth_box{
+    @include boxesstyle(#0E8784);
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.sixth_box{
+    @include boxesstyle( #F4F1EB);
+    margin-top: 16px;
+}
+.seventh_box{
+    @include boxesstyle( #0E8784 );
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.eighth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.ninth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-top: 16px;
+}
+.tenth_box{
+    @include boxesstyle( #F4F1EB);
+    margin-right: 23px; 
+    margin-top: 16px;
+}
+.elewenth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-right: 23px; 
+    margin-top: 16px;
+}
+.twelvth_box{
+    @include boxesstyle( #0E8784 );
+    margin-top: 16px;
+}
+.seventh_box{
+    @include boxesstyle( #0E8784 );
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.eighth_box{
+    @include boxesstyle( #F4F1EB);
+    margin-right: 23px;
+    margin-top: 16px;
+}
+.ninth_box{
+    @include boxesstyle( #F4F1EB);
+    margin-top: 16px;
+}
+.quiz{
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+color: #83888F;
+}
+.quality{
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #333D4B;
+}
+.info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    max-width: 278px;
+    padding-top: 0;
+    color: #333D4B;    
+}
+.comment{
+    width: 328px;
+    height: 338px;
+}
+.main_explaination{
+    max-width: 250px;
+}
+.create_btn{
+    display: flex;
+    justify-content: center;
+}
+.create{
+    margin-left: 0;
+}
+footer{
+    max-width: 327px;
+    height: 327px;
+    display: block;
+}
+.footer_part{
+    display: block;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+.footer_collection{
+    display: block;
+}
+.footer_items{
+    margin-top: 24px;
+}
+.apps{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.app{
+    margin-right: 24px;
+}
+.app:last-child{
+    margin-right: 0;
+}
+}

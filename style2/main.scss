@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    max-width: 100%;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    margin-left: 30px;
+}
+#cross_bar{
+    display: none;
+}
+.nav_header{
+    margin-right: 40px;
+}
+.header_collection{
+    display: flex;
+    list-style: none;
+}
+.header_items{
+    margin-right: 33px;
+}
+.header_items:last-child{
+    margin-right: 0;
+}
+.header_links{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+text-decoration: none;
+&:hover{
+    color: aqua;
+    font-style: italic;
+    transition: 0.5s;
+}
+&:focus{
+    color: #333D4B;
+}
+}
+.over_hero{
+    display: flex;
+    justify-content: center;
+}
+.hero_part{
+    width: 1280px;
+    height: 450px;
+    background-image: url(../images/hero_photo\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    .hero_text{
+padding: 137px 0px 0px 85px;    
+    }
+    h1{
+        font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+color: #FEFCF7;
+    }
+   p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+max-width: 450px;
+color: #FEFCF7;
+   } 
+}
+.over_main{
+    display: flex;
+    justify-content: center;
+}
+.main_part{
+    display: flex;
+    margin-top: 168px;
+.main_photo{
+    margin: 0px  125px;
+}
+   h2{
+    font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+color: #333D4B;
+   } 
+   p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+max-width: 550px;
+color: #333D4B;
+mix-blend-mode: normal;
+opacity: 0.8;
+   }
+}
+.main_box{
+    position: relative;
+    margin-top: 346px;
+    width: 1280px;
+    height: 474px;
+    background-color: #333D4B;
+.quality{
+    font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+color: #FEFCF7;
+}
+       .text_quality{
+        max-width: 540px;
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+       }
+       .main_text{
+        padding: 100px 0px 0px 85px;
+       }
+       .main_picture{
+        position: absolute;
+        left: 750px;
+        bottom: 50px;
+       }
+}
+.continets{
+    margin-top: 200px;
+    margin-left: 165px;
+    .location{
+        font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #83888F;
+    }
+    .countries{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .country_one{
+        width: 285px;
+    }
+    .Britan{
+        margin-top: 72px;
+    }
+    .name_country{
+        font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+color: #333D4B;
+margin-top: 45px;
+    }
+    .phone_version_photo{
+        display: none;
+    }
+    .address{
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #333D4B;
+max-width: 285px;
+    }
+}
+footer{
+    width: 1280px;
+    height: 120px;
+    background: #2C343E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 144px;
+}
+.footer_part{
+    display: flex;
+}
+.nav_footer{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.footer_collection{
+    display: flex;
+    list-style: none;
+}
+.footer_items{
+    margin-right: 34px;
+}
+.footer_links{
+    text-decoration: none;
+    color: #83888F;
+}
+.phone_version_photo{
+    display: none;
+}
+@import "media";
+@import "media_three";

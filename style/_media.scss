@@ -1,0 +1,127 @@
+@media only screen and (max-width: 768px){
+    .coffee_options{
+        height: 118px;
+        display: block;    
+}
+h1{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+color: #FEFCF7;
+max-width: 329px;
+}
+.goods{
+    margin-left: 97px;
+}
+.first_option{
+    display: flex;
+}
+.quality{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #FEFCF7;
+}
+.description{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    max-width: 282px;
+    color: #333D4B;
+    max-width: 282px;
+}
+.box_reasons{
+margin-top: 1200px;
+}
+.box_one{
+    display: flex;
+    margin-top: 24px;
+}
+.attempt{
+    display: none;
+}
+.cross_bar{
+    display: none;
+}
+.logo_quality{
+    width: 55px;
+    height: 56px;
+    margin-left: 70px;
+}
+.advert_text{
+    max-width: 344px;
+}
+.boxes{
+    display: block;
+}
+.box_one{
+    width: 573px;
+    height: 180px;
+}
+.process{
+    margin-left: 300px;
+    margin-top: 400px;
+}
+.number{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+
+
+color: #FDD6BA;
+}
+.preference{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 32px;
+/* or 114% */
+color: #333D4B;
+}
+.inside_preference{
+    max-width: 223px;
+}
+.line{
+    width: 467px;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+}
+.apps_part{
+
+    padding-left: 290px;
+    padding-top: 64px;
+}
+.left_part{
+    display: block;
+}
+.footer_part{
+    display: block;
+    width: 680px;
+    height: 270px;
+    padding-top: 54px;
+}
+.nav_footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+.main_text{
+    max-width: 398px;
+}
+
+}

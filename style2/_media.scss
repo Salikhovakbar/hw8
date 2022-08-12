@@ -1,0 +1,90 @@
+@media only screen and (max-width: 800px){
+body{
+    max-width: 100%;
+}
+#cross_bar{
+    display: none;
+}
+    .header_links{
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+
+color: #83888F;
+
+   }
+    .hero_part{
+        width: 689px;
+        height: 400px;
+        background-size: cover;
+    }
+    .history{
+        max-width: 398px;
+        font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+    }
+    .main_photo{
+        width: 281px;
+        height: 470px;
+    }
+    footer{
+        width: 688px;
+        height: 270px;
+        display: block;
+    }
+    .footer_part{
+        display: block;
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 55px;
+    }
+    .nav_footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 33px;
+    }
+    .apps{
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+    }
+    .phone_version_photo{
+        display: block;
+        width: 573px;
+        height: 320px;
+        margin: 0px 23px;
+        position: absolute;
+        bottom: 180px;
+    }
+    .main_picture{
+        display: none;
+    }
+    .main_box{
+        width: 688px;
+        height: 488px;
+        padding: 0;
+        .main_text{
+            padding: 0;
+            padding: 200px 74px 0px 74px;
+        }
+    }
+    .app{
+        margin-right: 24px;
+    }
+    .app:last-child{
+        margin-right: 0;
+    }
+}

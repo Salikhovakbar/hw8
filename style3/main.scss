@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+@import "header";
+.header_collection{
+    display: flex;
+    list-style: none;
+}
+#cross_bar{
+    display: none;
+}
+.header_items{
+    margin-right: 32px;
+}
+.header_items:last-child{
+    margin-right: 0;
+}
+.header_links{
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+text-decoration: none;
+line-height: 15px;
+/* identical to box height, or 125% */
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+&:hover{
+    color: aqua;
+    font-style: italic;
+    transition: 0.5s;
+}
+&:focus{
+    color: #333D4B;
+}
+}
+.over_hero{
+    display: flex;
+    justify-content: center;
+}
+.hero_part{
+    background-image: url(../images3/main_photo.svg);
+    width: 1280px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+color: #FEFCF7;
+}
+.text_description{
+    max-width: 445px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.hero_text{
+    padding: 150px 0px 0px 86px;
+}
+.main_box{
+    width: 1280px;
+    height: 653px;
+    background-color: #333D4B;
+    margin-top: 200px;
+    padding-top: 110px;
+    padding-left: 85px;
+}
+.statics{
+    display: flex;
+    justify-content: space-around;
+}
+.number{
+    font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+color: #FDD6BA;
+}
+.offer{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+    max-width: 255px;
+    color: #FEFCF7;
+}
+.conditions{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+max-width: 285px;
+color: #FEFCF7;
+}
+.under_main_part{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+.first_option{
+    display: flex;
+    position: relative;
+    margin-top: 45px;
+    &::after{
+        content: "";
+        background-color: gray;
+        width: 220px;
+        height: 0.1px;
+        position: absolute;
+        top: 55px;
+        opacity: 0.4;
+    }
+}
+.first_option:last-child{
+    &::after{
+        display: none;
+    }
+}
+.number_option{
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #0E8784;
+}
+.preference{
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #333D4B;
+margin-left: 30px;
+}
+.quiz{
+    font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #83888F;
+
+}
+.first_part{
+    display: flex;
+    margin-top: 56px;
+}
+@mixin boxesstyle ($main-color) {
+    width: 228px;
+    height: 250px; 
+    background-color: $main-color;   
+    border-radius: 8px;
+}
+.first_box{
+    @include boxesstyle (#F4F1EB);
+    margin-right: 23px;
+}
+.second_box{
+    @include boxesstyle(#0E8784);
+    margin-right: 23px;
+}
+.third_box{
+    @include boxesstyle(#FDD6BA)
+}
+.fourth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-right: 23px;
+}
+.fivth_box{
+    @include boxesstyle(#0E8784);
+    margin-right: 23px;
+}
+.sixth_box{
+    @include boxesstyle( #F4F1EB);
+}
+.seventh_box{
+    @include boxesstyle( #0E8784 );
+    margin-right: 23px;
+}
+.eighth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-right: 23px;
+}
+.ninth_box{
+    @include boxesstyle(  #F4F1EB);
+}
+.tenth_box{
+    @include boxesstyle( #F4F1EB);
+    margin-right: 23px; 
+}
+.elewenth_box{
+    @include boxesstyle(  #F4F1EB);
+    margin-right: 23px; 
+}
+.twelvth_box{
+    @include boxesstyle( #0E8784 );
+}
+.seventh_box{
+    @include boxesstyle( #0E8784 );
+    margin-right: 23px;
+}
+.eighth_box{
+    @include boxesstyle( #F4F1EB);
+    margin-right: 23px;
+}
+.ninth_box{
+    @include boxesstyle( #F4F1EB);
+}
+.quality{
+    font-style: normal;
+    padding: 32px 0px 0px 28px;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #333D4B;
+}
+.info{
+    padding: 24px 0px 0px 28px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #333D4B;
+max-width: 172px;
+}
+footer{
+    width: 1280px;
+    height: 120px;
+    background: #2C343E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 144px;
+}
+.footer_part{
+    display: flex;
+}
+.nav_footer{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.footer_collection{
+    display: flex;
+    list-style: none;
+}
+.footer_items{
+    margin-right: 34px;
+}
+.footer_links{
+    text-decoration: none;
+    color: #83888F;
+}
+.comment{
+    width: 730px;
+    height: 208px;
+    background-color: #2C343E;
+    margin-top: 85px;
+}
+.inside_comment{
+    padding: 30px 0px 0px 65px;
+}
+.theme_text{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+.main_explaination{
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+color: #FFFFFF;
+max-width: 602px;
+}
+span{
+    color: #0E8784;
+}
+.create{
+    font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+padding: 15px 35.5px;
+background: #66D2CF;
+border-radius: 6px;
+margin-left: 504px;
+margin-top: 60px;
+text-align: center;
+border: none;
+transition: 0;
+color: #FEFCF7;
+cursor: pointer;
+&:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+&:active{
+    box-shadow: 0px 0px 0px 3px gray;
+    transition: 0;
+}
+}
+@import "media_three";

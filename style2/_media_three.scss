@@ -1,0 +1,83 @@
+@media only screen and (max-width: 400px){
+    #cross_bar{
+        display: block;
+    }  
+    .nav_header{
+        display: none;
+    }
+    .main_part{
+        display: block;
+.main_photo{
+margin: 0;
+margin: 0px 25px;
+width: 327px;
+}        
+        p{
+max-width: 327px;
+text-align: center;
+        }
+    }
+    .main_box{
+        width: 350px;
+        height: 509px;
+        padding: 0;
+    }
+    .main_text{
+        padding-top: 142px;
+    }
+    .text_quality{
+        max-width: 279px;
+    }
+
+    .quality{
+        font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 28px;
+/* or 100% */
+max-width: 279px;
+text-align: center;
+
+color: #FEFCF7;
+    }
+    .phone_version_photo{
+        display: block;
+        width: 279px;
+        height: 156px;
+        margin: 0px 23px;
+        position: absolute;
+        bottom: 210px;
+    }
+    .main_picture{
+        display: none;
+    }
+    .continets{
+        margin-left: 0;
+        .countries{
+            display: block;
+        }
+    }
+    .over_countries{
+        display: flex;
+        justify-content: center;
+    }
+    .location{
+        text-align: center;
+    }
+    footer{
+        max-width: 279px;
+        height: 327px;
+    }
+    .footer_collection{
+        display: block;
+    }
+    .footer_items{
+        margin-top: 24px;
+    }
+    .app{
+        margin-right: 24px;
+    }
+    .app:last-child{
+        margin-right: 0;
+    }
+}
